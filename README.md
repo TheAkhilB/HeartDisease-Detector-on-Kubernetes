@@ -56,7 +56,7 @@ python app.py
 
 [![Flask](https://github.com/jalbertsr/logo-badge-images/blob/master/img/rsz_flask.png?raw=true)](http://flask.pocoo.org/)  
 
-[![Kubernetes](https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png)](https://kubernetes.io/)
+[![Kubernetes](https://github.com/cncf/artwork/blob/master/projects/kubernetes/horizontal/white/kubernetes-horizontal-white.png)](https://kubernetes.io/)
 
 ### Future work 
 
