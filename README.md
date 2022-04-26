@@ -63,16 +63,16 @@ sudo docker build -t mlproject:v1 .
 -Create a namespace for our deployment
 
 ```
-sudo kubectl apply -f namespace.yaml
+sudo kubectl apply -f /kuber/namespace.yaml
 ```
 -Create a deployment and service using the commands
 
 ```
-sudo kubectl apply -f deployment.yaml
+sudo kubectl apply -f /kuber/deployment.yaml
 ```
 
 ```
-sudo kubectl apply -f service.yaml
+sudo kubectl apply -f /kuber/service.yaml
 ```
 
 *Now check the service running on the port with*
