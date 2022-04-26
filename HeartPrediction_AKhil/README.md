@@ -2,7 +2,7 @@
 
 ### Overview
 
-A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using `Flask` and deployed on `Heroku`.
+A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using `Flask` and deployed on `Kubernetes`.
 
 ### Motivation 
 
@@ -24,7 +24,7 @@ As being a Data and ML enthusiast I have tried many different projects related t
  This Project is mainly divided into two parts:
  
  1. Exploring the dataset and traning the model using `Sklearn`.
- 2. Building and hosting a `flask` web app on `Heroku`.
+ 2. Building and hosting a `flask` web app on `Kubernetes`.
 
 **About the repository Structure :**
 
@@ -55,18 +55,10 @@ git clone https://github.com/asthasharma98/Heart-Disease-Prediction-Deployment.g
 python app.py
 ```
 
-### Deployement on Heroku
-
-Install Heroku CLI as this makes it easy to create and manage your Heroku apps directly from the terminal. 
-You can download it from [here](https://devcenter.heroku.com/articles/heroku-cli).
-
-next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
-
 ### Technologies used 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)  
 
-[![Heroku](https://github.com/jalbertsr/logo-badge-images/blob/master/img/rsz_heroku.png?raw=true)](https://www.heroku.com/)
 
 [![Flask](https://github.com/jalbertsr/logo-badge-images/blob/master/img/rsz_flask.png?raw=true)](http://flask.pocoo.org/)  
 
@@ -75,15 +67,6 @@ next step would be to follow the instruction given on [Heroku Documentation](htt
 
 - improve model performance.
 - Add more better styling to the user interface.
-
-### credit 
-
-- A big thanks to [Anuj vyas](https://github.com/anujvyas/Diabetes-Prediction-Deployment) as I got the desinging idea of web app from his projects on github.
-
-**Some Useful Resources**
-
-- **Flask Quickstart Documentation** : [https://flask.palletsprojects.com/en/1.1.x/quickstart/](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
-
 
 
 
