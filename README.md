@@ -12,7 +12,7 @@ As being a Data and ML enthusiast I have tried many different projects related t
   **Heart Disease Predictor Web App -** *[https://heart-disease-predictor-flask.herokuapp.com/](https://heart-disease-predictor-flask.herokuapp.com/)*
 
 - To get the Code for Exploratory data analysis/visualisations, different algorithms used and the model evaluation, click on the link mentioned below :
-  **Link of jupyter notebook -** *here (Heart_Disease_Prediction.ipynb)*
+  **Link of jupyter notebook -** *[here] (Heart_Disease_Prediction.ipynb)*
   
 **A Demo of the Web App :**
 
