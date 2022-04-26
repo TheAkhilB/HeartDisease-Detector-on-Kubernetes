@@ -27,6 +27,9 @@ As being a Data and ML enthusiast I have tried many different projects related t
 - *templates* folder contains two files `main.html` and `result.html` which describe the structure of the app and the way this web application behaves. These files are connected with Python via Flask framework.  
 - *static* folder contains file `style.css` which adds some styling and enhance the look of the application. 
 
+### Pre-requisites
+- Docker installed and a working Kubernetes cluster.
+
 ### Installation
 
 The Code is written in Python 3.8. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
@@ -46,8 +49,38 @@ git clone https://github.com/TheAkhilB/ML.git
 *To Run the Application*
 
 ```
-python app.py
+python /HeartPrediction_AKhil/app.py
 ```
+
+*For deploying in Kubernetes*
+
+-Create a docker image
+
+```
+sudo docker build -t mlproject:v1 .
+```
+-Use the docker image to create a deployment and service for kubernetes
+-Create a namespace for our deployment
+
+```
+sudo kubectl apply -f namespace.yaml
+```
+-Create a deployment and service using the commands
+
+```
+sudo kubectl apply -f deployment.yaml
+```
+
+```
+sudo kubectl apply -f service.yaml
+```
+
+*Now check the service running on the port with*
+
+```
+sudo kubectl get services -n mlops
+```
+
 
 ### Technologies used 
 
@@ -55,6 +88,8 @@ python app.py
 
 
 [![Flask](https://github.com/jalbertsr/logo-badge-images/blob/master/img/rsz_flask.png?raw=true)](http://flask.pocoo.org/)  
+
+[![Docker](https://i.imgur.com/VyjCJuz.png)](https://www.docker.com/)
 
 [![Kubernetes](https://github.com/cncf/artwork/blob/master/projects/kubernetes/horizontal/white/kubernetes-horizontal-white.png)](https://kubernetes.io/)
 
