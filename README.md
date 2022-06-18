@@ -76,9 +76,6 @@ next step would be to follow the instruction given on [Heroku Documentation](htt
 - improve model performance.
 - Add more better styling to the user interface.
 
-### credit 
-
-- A big thanks to [Anuj vyas](https://github.com/anujvyas/Diabetes-Prediction-Deployment) as I got the desinging idea of web app from his projects on github.
 
 **Some Useful Resources**
 
