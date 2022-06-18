@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: my-app3
+    env: qa
+  name: my-app3
+  namespace: mlops
+spec:
+  replicas: 2 # Creating two PODs for our app
+  selector:
+    matchLabels:
+      app: my-app3
+  template:
+    metadata:
+      labels:
+        app: my-app3
+        env: qa
+    spec:
+      containers:
+      - image: theakhilb/mlproject:v6 # Docker image name, that we pushed to GCR
+        name: my-kube-api3  # POD name 
+        ports:
+        - containerPort: 5500
