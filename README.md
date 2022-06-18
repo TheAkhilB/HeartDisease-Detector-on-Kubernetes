@@ -37,11 +37,7 @@ The Code is written in Python 3.8. If you don't have Python installed you can fi
 pip install -r requirements.txt 
 ```
 
-*To clone the repository*
 
-```
-git clone https://github.com/asthasharma98/Heart-Disease-Prediction-Deployment.git
-```
 
 ### Run 
 
