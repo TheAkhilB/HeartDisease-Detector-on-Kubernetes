@@ -32,7 +32,7 @@ As being a Data and ML enthusiast I have tried many different projects related t
 *To clone the repository*
 
 ```
-git clone https://github.com/TheAkhilB/ML.git
+git clone https://github.com/TheAkhilB/HeartDisease-Detector-on-Kubernetes.git
 
 ```
 
